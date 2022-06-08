@@ -1,0 +1,35 @@
+body {
+    background-image: url("2094219.webp");
+    background-size: cover;
+    font-family: cursive;
+}
+
+.login_div1,
+.login_div2 {
+    background: white;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+    width: 30%;
+    height: 20%;
+}
+
+#player_1,
+#player_2 {
+    display: inline-block;
+}
+
+.login_div1:hover,
+.login_div2:hover {
+    width: 40%;
+    border-color: blue;
+}
+
+#output {
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #18f0ff;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
